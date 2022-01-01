@@ -1,7 +1,7 @@
 {
   "name": "dolence",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "Dolence Software Corp.",
   "private": true,
   "scripts": {
     "watch": "./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
