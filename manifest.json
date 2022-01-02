@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Dolence",
+  "version": "0.1.0",
+  "description": "Dolence Software Corp.",
+  "icons": {
+    "16": "public/icons/icon_16.png",
+    "32": "public/icons/icon_32.png",
+    "48": "public/icons/icon_48.png",
+    "128": "public/icons/icon_128.png"
+  },
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ],
+    "persistent": false
+  },
+  "chrome_url_overrides": {
+    "newtab": "public/index.html"
+  }
+}

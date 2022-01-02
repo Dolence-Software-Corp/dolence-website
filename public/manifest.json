@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Dolence",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "Dolence Software Corp.",
   "icons": {
     "16": "icons/icon_16.png",
     "32": "icons/icon_32.png",
@@ -11,7 +11,7 @@
   },
   "background": {
     "scripts": [
-      "background.js"
+      "src/background.js"
     ],
     "persistent": false
   },
