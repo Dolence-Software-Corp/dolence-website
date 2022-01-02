@@ -11,7 +11,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: linear-gradient(to right, #EC6EAD, #3494E6);
+    background: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     color: #fff;
 }
@@ -435,4 +435,124 @@ a {
     letter-spacing: -0.015em;
     
     color: rgba(0, 0, 0, 0.8);
+}
+.body-hero1 {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 2270px;
+    
+    background: #F5F5F5;
+}
+.body-hero1-context {
+    display: flex;
+}
+.body-hero1-title {
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 80px;
+    top: 225px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+.body-hero1-text {
+    position: absolute;
+    width: 586px;
+    height: 90px;
+    left: 80px;
+    top: 285px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+.body-hero1-image {
+    position: absolute;
+    width: 650px;
+    height: 440px;
+    left: 700px;
+    top: 80px;
+}
+.body-platform {
+    position: absolute;
+    width: 100%;
+    height: 638px;
+    left: 0px;
+    top: 2970px;
+    
+    background: #FFFFFF;
+}
+.body-platform-title {
+    position: absolute;
+    text-align: center;
+    height: 72px;
+    left: 144px;
+    top: 50px;
+}
+.body-platform-title span {
+    position: absolute;
+    left: 380px;
+    right: 0%;
+    top: 13%;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 38px;
+    line-height: 32px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+.body-platform-text {
+    position: absolute;
+    text-align: center;
+    height: 72px;
+    left: 44px;
+    top: 100px;
+}
+.body-platform-text span {
+    position: absolute;
+    left: 0%;
+    top: 21.67%;
+    width: 1300px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 139% */
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+.body-platform-tools {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: auto auto auto auto;
+    grid-column: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    top: 200px;
+    left: 400px;
+}
+.body-platform-icon {
+    margin: 30px;
 }
