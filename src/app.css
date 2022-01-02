@@ -382,3 +382,57 @@ a {
     color: #18A0FB;
     
 }
+.body-hero {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 1570px;
+    display: flex;
+    background: #FFFFFF;
+}
+
+.body-hero-image {
+    position: absolute;
+    width: 450px;
+    height: 440px;
+    left: 150px;
+    top: 80px;
+}
+.body-hero-context {
+    width: 450px;
+    height: 440px;
+    left: 410px;
+    top: 80px;
+}
+.body-hero-title {
+    position: absolute;
+    width: 486px;
+    height: 36px;
+    left: 814px;
+    top: 225px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.015em;
+    
+    color: #000000;    
+}
+.body-hero-text {
+    position: absolute;
+    width: 486px;
+    height: 90px;
+    left: 814px;
+    top: 285px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
