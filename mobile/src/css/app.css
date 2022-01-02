@@ -1,0 +1,92 @@
+/* normalize css starts here */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.mobile {
+    height: 100vh;
+    background: url("https://sat02pap001files.storage.live.com/y4mrfUKQ5Ae1ngiCa9lPpBu1uiY5kYQOQuzsbEfDTV6TaImbQbSd0Rjt6ZAhDhobZxk18nfhzX8SVJI5MM2sW-3hS-jxTrNwAH_ZLCTuxKvEKfITGHiJ-Rhlq9uFcc6oyDwOfaYCf9DegHv6SH_ROR85rCIx0VR0jUtJJsEAQzC05XYNqqnJz-Z9bJMd8Ep81UU?width=500&height=500&cropmode=none");
+}
+.body-header {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: white;
+    text-align: center;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+}
+.login {
+    position: absolute;
+    width: 167px;
+    height: 42px;
+    left: 15px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.login a {
+    position: absolute;
+    left: 36.53%;
+    right: 27.13%;
+    top: 36.54%;
+    bottom: 34.62%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.register {
+    position: absolute;
+    width: 167px;
+    height: 42px;
+    left: 191px;
+    background: #000000;
+    border-radius: 6px;
+}
+.register a {
+    position: absolute;
+    left: 30.54%;
+    right: 30.54%;
+    top: 26.54%;
+    bottom: 34.62%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
