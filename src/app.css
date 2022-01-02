@@ -394,22 +394,22 @@ a {
 
 .body-hero-image {
     position: absolute;
-    width: 450px;
+    width: 550px;
     height: 440px;
-    left: 150px;
+    left: 100px;
     top: 80px;
 }
 .body-hero-context {
     width: 450px;
     height: 440px;
-    left: 410px;
+    left: 320px;
     top: 80px;
 }
 .body-hero-title {
     position: absolute;
     width: 486px;
     height: 36px;
-    left: 814px;
+    left: 764px;
     top: 225px;
     font-style: normal;
     font-weight: bold;
@@ -424,7 +424,7 @@ a {
     position: absolute;
     width: 486px;
     height: 90px;
-    left: 814px;
+    left: 764px;
     top: 285px;
     font-style: normal;
     font-weight: normal;
