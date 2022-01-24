@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "dolence.io",
+  "Id": "39b53879-605e-4f4e-ab03-b7ad2b9681de"
+}
